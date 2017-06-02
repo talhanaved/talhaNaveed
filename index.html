@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- CSS reset -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Resource style -->
+		<script src="js/modernizr.js"></script>
+		<!-- Modernizr -->
+
+		<!-- A N G U L A R  J S -->
+		<script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+
+		<title>Client Testimonials Carousel</title>
+	</head>
+
+	<body ng-app="starter" ng-controller="ctrl">
+
+		<div class="body_background_f">
+
+			<div class="cd-testimonials-wrapper no_margin_f cd-container">
+
+				<ul class="cd-testimonials">
+
+					<li ng-repeat="quote in list">
+						<p>"{{quote.quote}}"</p>
+						<p>{{quote.author}} <br/> {{quote.timestamp}}</p>
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="footer">
+				<p>Talha Naveed 2017 &copy; All Rights Reserved</p>
+			</div>
+
+		</div>
+
+		<script src="js/jquery-2.1.1.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+
+</html>

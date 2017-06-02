@@ -1,8 +1,11 @@
 var myApp = angular.module('starter', []);
 
-myApp.controller('ctrl', function($scope) {
+myApp.controller('ctrl', function($scope, $http) {
 
-    //  angular.element(document).ready(function() {
+    angular.element(document).ready(function() {
+
+      console.log("Okay");
+    });
 
     $scope.list = [];
 
@@ -22,6 +25,5 @@ myApp.controller('ctrl', function($scope) {
         timestamp: '26th May, 2017 at 2:27 AM'
     });
 
-    //  });
 
 });

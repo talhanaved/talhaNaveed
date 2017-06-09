@@ -28,6 +28,7 @@ body {
 
 .quote_container {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .quote {
@@ -60,7 +61,7 @@ body {
 }
 
 .socials {
-  text-align: right;
+    text-align: right;
 }
 
 .socials i {
@@ -69,6 +70,6 @@ body {
     margin-right: 20px;
 }
 
-.footer_three_col_text{
-  padding-top: 30px;
+.footer_three_col_text {
+    padding-top: 30px;
 }

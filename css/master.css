@@ -1,3 +1,35 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+.header_parent {
+    background-color: rgb(16, 16, 16);
+    min-height: 130px;
+    padding-bottom: 30px;
+}
+
+.header_child {
+    padding-top: 30px;
+}
+
+.logo {
+    font-family: 'Scope One', serif;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.tagline {
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+    line-height: 20px;
+}
+
+.quote_container {
+    padding-top: 30px;
+}
+
 .quote {
     font-family: 'Scope One', serif;
     font-size: large;
@@ -11,4 +43,32 @@
 .timestamp {
     font-family: 'Quicksand', sans-serif;
     font-size: small;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+.footer_parent {
+    background-color: rgb(16, 16, 16);
+    min-height: 230px;
+    padding-bottom: 30px;
+}
+
+.footer_child {
+    padding-top: 50px;
+}
+
+.socials {
+  text-align: right;
+}
+
+.socials i {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-right: 20px;
+}
+
+.footer_three_col_text{
+  padding-top: 30px;
 }

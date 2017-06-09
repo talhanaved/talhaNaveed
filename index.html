@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/master.css">
+        <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.min.css">
 
         <!-- FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand|Scope+One" rel="stylesheet">
@@ -21,7 +22,14 @@
 
     <body ng-app="starter" ng-controller="ctrl">
 
-        <div class="container">
+        <div class="container-fluid header_parent">
+            <div class="container header_child">
+                <h1 class="center logo">Website Name</h1>
+                <p class="tagline">Tagline text will come here..</p>
+            </div>
+        </div>
+
+        <div class="container quote_container">
             <div class="row">
                 <div class="card-columns">
 
@@ -33,6 +41,21 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid footer_parent">
+            <div class="container footer_child">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="tagline"><span class="logo">Talha Naveed</span> is a Lahore based writer and visionary. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="col-md-6 socials">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -24,6 +24,26 @@ myApp.controller('ctrl', function($scope, $http) {
         author: 'Talha Naveed',
         timestamp: '26th May, 2017 at 2:27 AM'
     });
+    $scope.list.push({
+        quote: "Main tab tak azad nai ho sakta jb tak mje apni hado ka na pata ho, apni hado sy piyar na ho wo hadain jo Allah ny bnai, wo hadain jo mere nai S.A.W chor kar gaye. Jab tak muje qanon tang karte rahe gaye main azad mehsoos nahi kar sako ga. Azadi une he mehsos hoti hai jo muqarar hado main rehna pasand karte hain. jiny Allah kay hukam se piyar hota hy.",
+        author: 'Talha Naveed',
+        timestamp: '26th May, 2017 at 2:27 AM'
+    });
+    $scope.list.push({
+        quote: "Main tab tak azad nai ho sakta jb tak mje apni hado ka na pata ho, apni hado sy piyar na ho wo hadain jo Allah ny bnai, wo hadain jo mere nai S.A.W chor kar gaye. Jab tak muje qanon tang karte rahe gaye main azad mehsoos nahi kar sako ga. Azadi une he mehsos hoti hai jo muqarar hado main rehna pasand karte hain. jiny Allah kay hukam se piyar hota hy.",
+        author: 'Talha Naveed',
+        timestamp: '26th May, 2017 at 2:27 AM'
+    });
+    $scope.list.push({
+        quote: "Main tab tak azad nai ho sakta jb tak mje apni hado ka na pata ho, apni hado sy piyar na ho wo hadain jo Allah ny bnai, wo hadain jo mere nai S.A.W chor kar gaye. Jab tak muje qanon tang karte rahe gaye main azad mehsoos nahi kar sako ga. Azadi une he mehsos hoti hai jo muqarar hado main rehna pasand karte hain. jiny Allah kay hukam se piyar hota hy.",
+        author: 'Talha Naveed',
+        timestamp: '26th May, 2017 at 2:27 AM'
+    });
+    $scope.list.push({
+        quote: "Main tab tak azad nai ho sakta jb tak mje apni hado ka na pata ho, apni hado sy piyar na ho wo hadain jo Allah ny bnai, wo hadain jo mere nai S.A.W chor kar gaye. Jab tak muje qanon tang karte rahe gaye main azad mehsoos nahi kar sako ga. Azadi une he mehsos hoti hai jo muqarar hado main rehna pasand karte hain. jiny Allah kay hukam se piyar hota hy.",
+        author: 'Talha Naveed',
+        timestamp: '26th May, 2017 at 2:27 AM'
+    });                
 
 
 });

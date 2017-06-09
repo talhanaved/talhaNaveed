@@ -86,7 +86,7 @@ body {
 .socials i {
     color: rgb(255, 255, 255);
     font-size: xx-large;
-    margin-right: 20px;
+    margin: 20px;
 }
 
 .footer_three_col_text {

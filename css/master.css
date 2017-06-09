@@ -79,6 +79,10 @@ body {
     padding-top: 50px;
 }
 
+.socials{
+  margin: 0 auto;
+}
+
 .socials i {
     color: rgb(255, 255, 255);
     font-size: xx-large;

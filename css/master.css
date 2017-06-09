@@ -1,0 +1,14 @@
+.quote {
+    font-family: 'Scope One', serif;
+    font-size: large;
+}
+
+.author {
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+}
+
+.timestamp {
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+}

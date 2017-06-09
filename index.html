@@ -1,63 +1,50 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html>
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta property="og:image" content="https://fahadachaudhry.github.io/talhaNaveed/img/bg.jpg">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<!-- CSS reset -->
-		<link rel="stylesheet" href="css/style.css">
-		<!-- Resource style -->
-		<script src="js/modernizr.js"></script>
-		<!-- Modernizr -->
+        <!-- OG IMAGE -->
+        <meta property="og:image" content="https://fahadachaudhry.github.io/talhaNaveed/img/bg.jpg">
 
-		<!-- A N G U L A R  J S -->
-		<script type="text/javascript" src="./bower_components/angular/angular.js"></script>
-		<script type="text/javascript" src="./js/app.js"></script>
+        <title>Talha Naveed</title>
 
-		<title>Talha Naveed</title>
-	</head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/master.css">
 
-	<body ng-app="starter" ng-controller="ctrl">
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Scope+One" rel="stylesheet">
 
-		<div class="body_background_f">
+    </head>
 
-			<div class="cd-testimonials-wrapper no_margin_f cd-container">
+    <body ng-app="starter" ng-controller="ctrl">
 
-				<ul class="cd-testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="card-columns">
 
-					<li ng-repeat="quote in list">
-						<p>"{{quote.quote}}"</p>
-						<p>{{quote.author}} <br/> {{quote.timestamp}}</p>
-					</li>
+                    <div class="card" ng-repeat="quote in list">
+                        <div class="card-block">
+                            <p class="card-text pull-right timestamp">{{quote.timestamp}}</p>
+                            <h4 class="card-title quote text-capitalize">{{quote.quote}}</h4>
+                            <p class="card-text author">{{quote.author}}</p>
+                        </div>
+                    </div>
 
-				</ul>
-					<a href="#0" class="cd-see-all">See all</a>
-			</div>
+                </div>
+            </div>
+        </div>
 
-			<div class="cd-testimonials-all">
-				<div class="cd-testimonials-all-wrapper">
-					<ul>
-						<li class="cd-testimonials-item" ng-repeat="quote in list">
-							<p>{{quote.quote}} <br/> {{quote.author}} <br/> {{quote.timestamp}}</p>
-						</li>
-					</ul>
-				</div>
-				<a href="#0" class="close-btn">Close</a>
-			</div>
+    </body>
 
-			<div class="footer">
-				<p>Talha Naveed 2017 &copy; All Rights Reserved</p>
-			</div>
-		</div>
+    <script type="text/javascript" src="./bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
 
-		<script src="js/jquery-2.1.1.js"></script>
-		<script src="js/masonry.pkgd.min.js"></script>
-		<script src="js/jquery.flexslider-min.js"></script>
-		<script src="js/main.js"></script>
-
-	</body>
+    <!--
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    -->
 
 </html>
